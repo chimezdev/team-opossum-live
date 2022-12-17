@@ -1,1 +1,1 @@
-web: gunicorn my_debtors_core.wsgi --log-file
+web: gunicorn my_debtors_core.wsgi --log-file -
