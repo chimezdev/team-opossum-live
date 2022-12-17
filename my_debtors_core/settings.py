@@ -142,3 +142,6 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 #allowing any app to call our api
 CORS_ALLOW_ALL_ORIGINS = True
+
+
+# web: gunicorn my_debtors_core.wsgi --log-file -
